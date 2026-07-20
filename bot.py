@@ -44,10 +44,10 @@ from telegram.ext import (
 # ══════════════════════════════════════════════════════════════════
 #  ⚙️  КОНФИГ
 # ══════════════════════════════════════════════════════════════════
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "ВАШ_ТОКЕН_БОТА")
-API_ID    = int(os.environ.get("API_ID", "0"))
-API_HASH  = os.environ.get("API_HASH",  "ВАШ_API_HASH")
-PHONE     = os.environ.get("PHONE",     "+7XXXXXXXXXX")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8303616493:AAFyXfNfF0aIC1fG8aaB1PwsMu3CygvGb7k")
+API_ID    = int(os.environ.get("API_ID", "27995587"))
+API_HASH  = os.environ.get("API_HASH",  "18b67d6be3bd13bf0ba55a8d6bdb3482")
+PHONE     = os.environ.get("PHONE",     "+79518436020")
 
 SUBS_FILE   = "subscriptions.json"
 STATS_FILE  = "stats.json"
