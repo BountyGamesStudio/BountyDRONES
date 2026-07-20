@@ -33,7 +33,7 @@ from telegram.ext import (
 # ══════════════════════════════════════════════════════════════════
 #  ⚙️  КОНФИГ
 # ══════════════════════════════════════════════════════════════════
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "ВАШ_ТОКЕН_БОТА")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8303616493:AAFyXfNfF0aIC1fG8aaB1PwsMu3CygvGb7k")
 
 SUBS_FILE  = "subscriptions.json"
 STATS_FILE = "stats.json"
