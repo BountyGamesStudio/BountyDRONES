@@ -1,0 +1,10 @@
+# Telegram Bot API (PTB)
+python-telegram-bot==20.7
+
+# Telethon — парсинг каналов через user account
+telethon==1.36.0
+
+# Зависимости Telethon
+pyaes==1.6.1
+pyasn1==0.6.0
+rsa==4.9
