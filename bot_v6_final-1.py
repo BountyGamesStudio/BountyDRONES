@@ -39,7 +39,7 @@ from telegram.ext import (
 # ══════════════════════════════════════════════════════════════════
 #  ⚙️  КОНФИГ — заполни перед запуском
 # ══════════════════════════════════════════════════════════════════
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "ВАШ_ТОКЕН")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8303616493:AAFyXfNfF0aIC1fG8aaB1PwsMu3CygvGb7k")
 
 # Твой канал — бот там АДМИН, слушает через Bot API (без парсинга)
 OWN_CHANNEL = "bointygamesr"
@@ -64,7 +64,7 @@ STATS_FILE  = "stats.json"
 POLL_INTERVAL = 20    # секунд между опросами внешних каналов
 
 # ← Вставь сюда свой Telegram ID (узнать: @userinfobot)
-ADMIN_IDS: Set[int] = {123456789}
+ADMIN_IDS: Set[int] = {7728468302}
 DEDUP_TTL     = 240   # антидубль — секунды
 COOLDOWN_TTL  = 90    # кулдаун между однотипными алертами по региону
 MIN_TEXT_LEN  = 10    # минимум символов для анализа
