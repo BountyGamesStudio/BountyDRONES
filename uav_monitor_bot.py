@@ -38,7 +38,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 # ══════════════════════════════════════════════════════════════════
 #  ⚙️  КОНФИГ
 # ══════════════════════════════════════════════════════════════════
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "ВАШ_ТОКЕН")
+BOT_TOKEN = os.environ.get("8303616493:AAFyXfNfF0aIC1fG8aaB1PwsMu3CygvGb7k", "8303616493:AAFyXfNfF0aIC1fG8aaB1PwsMu3CygvGb7k")
 
 # Каналы-источники (без @, только юзернейм из t.me/xxxxx). Можно
 # менять на лету командами /addsource и /delsource (админ-команды).
