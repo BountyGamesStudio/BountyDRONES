@@ -50,7 +50,7 @@ from telegram.ext import (
 # ══════════════════════════════════════════════════════════════════
 #  ⚙️  КОНФИГ — заполни перед запуском
 # ══════════════════════════════════════════════════════════════════
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "ВАШ_ТОКЕН")
+BOT_TOKEN = os.environ.get("8303616493:AAFyXfNfF0aIC1fG8aaB1PwsMu3CygvGb7k", "8303616493:AAFyXfNfF0aIC1fG8aaB1PwsMu3CygvGb7k")
 
 # Твой канал — бот там АДМИН, слушает через Bot API (без парсинга)
 OWN_CHANNEL = "bointygamesr"
